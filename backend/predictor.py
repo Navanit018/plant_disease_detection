@@ -48,6 +48,26 @@ def predict(image, model):
         "Confidence": round(conf * 100, 2),
         "Cause": disease.get("cause", "Not available"),
         "Cure": disease.get("cure", "Not available")
+        
     }
 
+# ===============================
+# Main execution
+# ===============================
+if __name__ == "__main__":
+    image_path = input("Enter plant leaf image path: ")
+
+    if not os.path.exists(image_path):
+        print("❌ Image file not found!")
+        exit()
+
+    image = Image.open(image_path)
+    result = predict(image, model)
+
+    print("\n🌿 Plant Disease Prediction Result")
+    print("---------------------------------")
+    print(f"Disease     : {result['Disease Name']}")
+    print(f"Confidence  : {result['Confidence']}%")
+    print(f"Cause       : {result['Cause']}")
+    print(f"Cure        : {result['Cure']}")
 
