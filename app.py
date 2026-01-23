@@ -4,7 +4,7 @@ import json
 from PIL import Image
 import tensorflow as tf
 
-# --------------------------------------------------
+
 # PAGE CONFIG
 # --------------------------------------------------
 st.set_page_config(
@@ -176,4 +176,5 @@ if uploaded_file:
 
 else:
     st.info("👆 Upload an image to start detection.")
+
 
