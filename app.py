@@ -176,3 +176,4 @@ if uploaded_file:
 
 else:
     st.info("👆 Upload an image to start detection.")
+
