@@ -17,7 +17,7 @@ plant-disease-detection/
 │ └── (model training scripts & notebooks)
 │
 ├── uploadimages/
-│ └── (uploaded leaf images
+│ └── (uploaded leaf images)
 │
 ├── app.py
 ├── test.py
