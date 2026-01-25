@@ -60,7 +60,7 @@ Main application file to run disease prediction using trained model.
 Contains:
 - Image preprocessing
 - Model inference logic
-- Disease metadata mapping
+- Disease metadata 
 
 ### `training/`
 Contains training scripts and notebooks for building the CNN model.
