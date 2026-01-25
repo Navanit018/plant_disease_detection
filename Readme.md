@@ -36,7 +36,7 @@ plant-disease-detection/
 - 🦠 Disease cause identification  
 - 💊 Cure & treatment suggestions  
 - 🔄 TensorFlow → TFLite conversion support  
-- 🖼 Image preprocessing using PIL  
+- 🖼 Image preprocessing using PIL
 
 ---
 
