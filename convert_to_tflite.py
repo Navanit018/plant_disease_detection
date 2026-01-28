@@ -17,7 +17,7 @@ model = tf.keras.models.load_model(
     compile=False
 )
 
-# Create TFLite converter
+# Create TFLite converte
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 
 # Enable optimization (size reduction)
@@ -42,4 +42,5 @@ with open("plant_disease_model.tflite", "wb") as f:
     f.write(tflite_model)
 
 print("✅ Model converted successfully to TFLite")
+
 
