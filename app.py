@@ -6,7 +6,7 @@ import tensorflow as tf
 
 # -------------------------------------------------
 # PAGE CONFIG
-# --------------------------------------------------
+# -------------------------------------------------
 st.set_page_config(
     page_title="Plant Disease Detection",
     page_icon="🌱",
@@ -176,6 +176,7 @@ if uploaded_file:
 
 else:
     st.info("👆 Upload an image to start detection.")
+
 
 
 
