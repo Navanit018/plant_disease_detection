@@ -7,7 +7,7 @@ The system predicts plant diseases from leaf images and provides **disease name,
 
 
 ## 📂 Project Structure
-plant-disease-detection/
+plant-disease-detection/  
 │
 ├── backend/
 │ ├── pycache/
