@@ -14,7 +14,7 @@ plant-disease-detection/
 │ └── predictor.py
 │
 ├── training/
-│ └── (model training scripts & notebooks)
+│ └── (model training scripts & notebooks)  
 │
 ├── uploadimages/
 │ └── (uploaded leaf images
