@@ -6,7 +6,7 @@ The system predicts plant diseases from leaf images and provides **disease name,
 
 
 
-## 📂 Project Structure
+## 📂 Project Structure    
 plant-disease-detection/  
 │
 ├── backend/
